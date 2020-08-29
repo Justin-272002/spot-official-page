@@ -1,0 +1,154 @@
+  .header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header-video video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000bd;
+  }
+  
+  .header-content {
+    z-index: 2;
+  }
+  
+  .header-content h1 {
+    font-size: 200px;
+    font-weight: 900;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .btn {
+    background: #fff025;
+    color: rgb(58, 58, 58);
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 960px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+  }
+
+nav {
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+hr {
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+section {
+
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+h1 {
+
+    font-size: 200px;
+    font-weight: 900;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.Stylep {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: orange;
+
+}
+
+h5 {
+
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+thead {
+
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.card-header {
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: orange;
+
+}
+
+footer {
+
+  height: 100px;
+  background-color: gray;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: orange;
+
+}
